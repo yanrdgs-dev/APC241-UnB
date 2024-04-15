@@ -13,7 +13,7 @@ def quantosSemestres(matricula,ano_atual,semestre_atual):
             total_semestres = sub_ano * 2 - semestre_matricula
             print(total_semestres)
             
-        # se semestre atual = 1, (ano atual - ano matricula) * 2 - 1
+        # se semestre atual = 1, (ano atual - ano matricula) * 2 - semestre matricula + semestre atual
         else:
             total_semestres = sub_ano * 2 - semestre_matricula + semestre_atual
             print(total_semestres)
